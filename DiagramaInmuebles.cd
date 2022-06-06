@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="POO2DU4_Ejemplo1.Casa">
+    <Position X="3.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAIAAAAAAAAAiAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Casa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POO2DU4_Ejemplo1.Departamento">
+    <Position X="8" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAQAAAAAAAAAiAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Departamento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POO2DU4_Ejemplo1.Terreno">
+    <Position X="5.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACABAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Terreno.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="POO2DU4_Ejemplo1.Inmueble">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAEAAAAACAAEAAAAQAAAAAIQAAAAIAAFAAAAAE=</HashCode>
+      <FileName>Inmueble.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
