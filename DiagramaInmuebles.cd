@@ -17,16 +17,17 @@
   <Class Name="POO2DU4_Ejemplo1.Terreno">
     <Position X="5.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAACABAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAACABAAAAAAAAAAAAAAAAAAAAAAADAAAAAA=</HashCode>
       <FileName>Terreno.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="POO2DU4_Ejemplo1.Inmueble">
     <Position X="5.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAACAAAEAAAAACAAEAAAAQAAAAAIQAAAAIAAFAAAAAE=</HashCode>
+      <HashCode>AAACAAAEAAAAACAAEAAAAQAAAAAIQCAAAIAAFAAAAAE=</HashCode>
       <FileName>Inmueble.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

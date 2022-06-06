@@ -12,5 +12,9 @@ namespace POO2DU4_Ejemplo1
         private byte numeroBaños;
         private string tipoMaterialConstruccion;
         private DateTime fechaConstruccion;
+
+
+
+
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace POO2DU4_Ejemplo1
 {
-    public class Inmueble
+    public class Inmueble : IInmuebles
     {
         private int metrosCuadrados;
         private string calle;
@@ -25,8 +25,17 @@ namespace POO2DU4_Ejemplo1
         //Por lo menos un constructor vacio
         public Inmueble(){
             Console.ForegroundColor = ConsoleColor.Red;
+            Console.WriteLine("Seleccionaste el constructor sin params");
+
             Console.WriteLine("Ingresa el nombre del propietario");
             escrituras = Console.ReadLine();
+
+            Console.WriteLine("Ingresa los metros cuadrados del inmueble");
+            metrosCuadrados = Convert.ToInt32(Console.ReadLine());
+                
+
+            Console.WriteLine("Ingresa la direccion del inmueble");
+            calle = Console.ReadLine();           
         }
 
         //Constructor sobrecargado
@@ -37,6 +46,11 @@ namespace POO2DU4_Ejemplo1
             this.calle = calle;
             this.precioVenta = precioVenta;
             this.escrituras = escrituras;
+        }
+
+        public double CalcularCostoTerreno(double precioMetroCuadrado)
+        {
+            return precioMetroCuadrado * metrosCuadrados;
         }
 
         public virtual void DetallesDeInmueble()

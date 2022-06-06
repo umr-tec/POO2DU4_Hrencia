@@ -21,7 +21,14 @@ namespace POO2DU4_Ejemplo1
             this.cimientos = cimientos;
         }
 
-        public Terreno() { }
+        public Terreno() {
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("Cuales son las condiciones del suielo");
+            condicionesSuelo = Console.ReadLine();
+            Console.WriteLine("El terreno cuenta con servicios basicos ");
+            serviciosBasicos = Convert.ToBoolean( Console.ReadLine());
+
+        }
 
 
         public override void DetallesDeInmueble()
