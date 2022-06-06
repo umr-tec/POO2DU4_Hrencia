@@ -10,5 +10,6 @@ namespace POO2DU4_Ejemplo1
     {
         //implemetar un metodo para calcular el cisnto de un terreno
         double CalcularCostoTerreno(double precioMetroCuadrado);
+        void MostrarCliente_Vendedor(string clientge, string vendedor);
     }
 }

@@ -75,5 +75,10 @@ namespace POO2DU4_Ejemplo1
 
             Console.WriteLine(mensaje);
         }
+
+        public void MostrarCliente_Vendedor(string clientge, string vendedor)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
