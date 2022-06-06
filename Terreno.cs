@@ -22,11 +22,24 @@ namespace POO2DU4_Ejemplo1
         }
 
         public Terreno() {
-            Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("Cuales son las condiciones del suielo");
-            condicionesSuelo = Console.ReadLine();
-            Console.WriteLine("El terreno cuenta con servicios basicos ");
-            serviciosBasicos = Convert.ToBoolean( Console.ReadLine());
+            //evitar ecepciones no contriooladas
+            try
+            {
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine("Cuales son las condiciones del suielo");
+                condicionesSuelo = Console.ReadLine();
+                Console.WriteLine("El terreno cuenta con servicios basicos ");
+                serviciosBasicos = Convert.ToBoolean(Console.ReadLine());
+            }
+            catch (Exception ex)
+            {
+                Console.Clear();
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine(ex.Message.ToString());
+            }
+
+
+            
 
         }
 

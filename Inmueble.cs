@@ -24,18 +24,27 @@ namespace POO2DU4_Ejemplo1
         //Constructrores
         //Por lo menos un constructor vacio
         public Inmueble(){
-            Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("Seleccionaste el constructor sin params");
+            Console.ForegroundColor = ConsoleColor.Yellow;
 
-            Console.WriteLine("Ingresa el nombre del propietario");
-            escrituras = Console.ReadLine();
+            try
+            {
+                Console.WriteLine("Seleccionaste el constructor sin params");
 
-            Console.WriteLine("Ingresa los metros cuadrados del inmueble");
-            metrosCuadrados = Convert.ToInt32(Console.ReadLine());
-                
+                Console.WriteLine("Ingresa el nombre del propietario");
+                escrituras = Console.ReadLine();
 
-            Console.WriteLine("Ingresa la direccion del inmueble");
-            calle = Console.ReadLine();           
+                Console.WriteLine("Ingresa los metros cuadrados del inmueble");
+                metrosCuadrados = Convert.ToInt32(Console.ReadLine());
+
+
+                Console.WriteLine("Ingresa la direccion del inmueble");
+                calle = Console.ReadLine();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message.ToString());
+            }
+                     
         }
 
         //Constructor sobrecargado
